@@ -1,0 +1,21 @@
+{
+    "projects" : [
+        {
+            "image" : "images/projects/project.png",
+            "title": "Expense Tracker",
+            "bodyText": "- Developer Portfolio Website made in React\n -  Fully customisable and dynamic, easily change data and images.\n - Dark Mode Support",
+            "links": [
+                {
+                    "text": "GitHub",
+                    "href": "https://github.com/VIBE94/Expense-Tracker"
+                }
+            ],
+            "tags" : [
+                "React",
+                "Portfolio",
+                "JavaScript"
+            ]
+        }
+        
+    ]
+}
