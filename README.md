@@ -1,11 +1,6 @@
 
 ## A minimal portfolio template for Developers!
 
-<h2 align="center">
-  <img src="https://github.com/mayankagarwal09/dev-portfolio/blob/master/images/dev-portfolio.gif" alt="Dev Portfolio" />
-  <br>
-</h2>
-
 ## Features
 
 ⚡️ Modern UI Design + Reveal Animations\
@@ -40,7 +35,7 @@ From your command line, first clone Dev Portfolio:
 
 ```bash
 # Clone the repository
-$ git clone https://github.com/mayankagarwal09/dev-portfolio
+$ git clone https://github.com/VIBE94/Personal-Portfolio
 
 # Move into the repository
 $ cd dev-portfolio
@@ -398,18 +393,14 @@ It has 2 keys, *logo* and *sections*.
 {
     "projects" : [
         {
-            "image" : "images/projects/portfolio-poster.png",
-            "title": "Dev Portfolio",
-            "bodyText": "- Developer Portfolio Website made in React\n -  Fully customisable and dynamic, easily change data and images.\n - Dark Mode Support",
+            "image" : "images/projects/project.png",
+            "title": "Expense Tracker",
+            "bodyText": "- Expense Tracker Website made in React\n -  Fully customisable and dynamic, easily upload and delete data.\n - Bulk Delete And Bulk Upload Feature",
             "links": [
                 {
                     "text": "GitHub",
-                    "href": "https://github.com/mayankagarwal09/dev-portfolio"
+                    "href": "https://github.com/VIBE94/Expense-Tracker"
                 },
-                {
-                    "text": "Live",
-                    "href": "https://mayankagarwal.me"
-                }
             ],
             "tags" : [
                 "React",
@@ -417,41 +408,6 @@ It has 2 keys, *logo* and *sections*.
                 "JavaScript"
             ]
         },
-        {
-            "title": "MVVM Sample App",
-            "bodyText": "- An Android App that loads data from mock API and show in both **LinearLayout** and **GridLayout RecyclerView**.\n - Offline support using **Room** DB and **NetworkBoundResource**.\n - Uses the **MVVM** architecture.",
-            "links": [
-                {
-                    "text": "GitHub",
-                    "href": "https://github.com/mayankagarwal09/mvvm-sample-app"
-                }
-            ],
-            "tags" : [
-                "Kotlin",
-                "Android",
-                "MVVM",
-                "Room",
-                "Coroutines",
-                "Flow",
-                "Hilt-Dagger",
-                "NetworkBoundResource"
-            ]
-        },
-        {
-            "title": "Task Tracker",
-            "bodyText": "- A simple Task Tracker web app made with **Angular 12**.\n - Uses **mock JSON server** to get, add, delete or update tasks.",
-            "links": [
-                {
-                    "text": "GitHub",
-                    "href": "https://github.com/mayankagarwal09/task-tracker-app"
-                }
-            ],
-            "tags" : [
-                "TypeScript",
-                "Angular 12",
-                "JavaScript"
-            ]
-        }
     ]
 }
 ```
@@ -535,24 +491,6 @@ export const darkTheme = {
 Go to `public/index.html`. Change *title* and *logo* if you want to customize it.
 
 ---
-
-## Deployment 📦
-
-Once you finish your setup. You need to put your website online!
-
-I highly recommend to use [Vercel](https://vercel.app) because it is super easy.
-
-## Notable Portfolios made using this template
-
-- [Mayank Agarwal](https://mayankagarwal09.com)
-
-## Authors
-
-- **Mayank Agarwal** - [https://github.com/mayankagarwal09](https://github.com/mayankagarwal09)
-
-## Support
-
-If you find a bug, feel free to [open an issue](https://github.com/mayankagarwal09/dev-portfolio/issues) in this repository.
 
 ## License 📄
 
